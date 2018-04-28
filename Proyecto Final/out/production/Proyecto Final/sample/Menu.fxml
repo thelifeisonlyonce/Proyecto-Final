@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Menu">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="211.0" prefWidth="236.0">
+         <children>
+            <Button fx:id="nuevojuego" layoutX="53.0" layoutY="14.0" mnemonicParsing="false" onAction="#entrar" prefHeight="31.0" prefWidth="130.0" text="Nuevo Juego">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="topscore" layoutX="69.0" layoutY="87.0" mnemonicParsing="false" onAction="#ver" text="Top Score">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="salida" layoutX="90.0" layoutY="160.0" mnemonicParsing="false" onAction="#salir" text="Salir">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+        </Pane>
+    </children>
+</GridPane>
